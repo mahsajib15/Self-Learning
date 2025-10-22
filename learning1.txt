@@ -1,0 +1,18 @@
+15 Core Concepts for Frontend.
+---------------------------------
+
+01. The Critical Rendering Path (CRP)
+02. The Core Web Vitals (CWV)
+03. HTTP Caching
+04. Content Negotiation
+05. Lazy Loading
+06. Bundle Splitting
+07. Critical CSS
+08. Essential State
+09. The Reducer Pattern
+10. Windowing (List Visualization)
+11. Server-Side Rendering (SSR)
+12. Rehydration
+13. Partial Pre-rendering
+14. Server-Side Components
+15. Micro Frontend
