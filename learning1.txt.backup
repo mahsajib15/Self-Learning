@@ -20,56 +20,7 @@
 
 *****************01. The Critical Rendering Path (CRP)****************
 
-The Critical Rendering Path is the sequence of steps the browser goes through to 
-convert the HTML, CSS, and JavaScript into pixels on the screen.
-
-
-By chatGPT:
-The Critical Rendering Path (CRP) refers to the sequence of steps a web browser takes
-to transform HTML, CSS, and JavaScript into the pixels that appear on the user’s screen. 
-It begins when the browser downloads and parses the HTML file to construct the Document 
-Object Model (DOM), which represents the structure and content of the page. At the same 
-time, the browser downloads and processes any CSS files to build the CSS Object Model (CSSOM), 
-which defines how elements should be styled. Once both the DOM and CSSOM are ready, they are 
-combined to create the Render Tree, a structure that includes only the elements that will 
-be visible on the page. The browser then performs a layout (also known as reflow) to calculate 
-the exact position and size of each element on the screen. Finally, it goes through the painting 
-stage, where the pixels are drawn to the display based on the layout and style information.
-
-Optimizing the Critical Rendering Path is essential for improving web performance, as each 
-step affects how quickly a page becomes visible and interactive. Common optimization strategies 
-include minimizing render-blocking resources (like large CSS or JavaScript files), deferring 
-non-critical scripts, inlining critical CSS for above-the-fold content, and compressing or 
-minifying files to reduce load time. By streamlining the CRP, developers can significantly 
-improve the First Contentful Paint (FCP) and provide a faster, smoother user experience.
-
-
-
-
-
-
-15 Core Concepts for Frontend.
----------------------------------
-
-01. The Critical Rendering Path (CRP)
-02. The Core Web Vitals (CWV)
-03. HTTP Caching
-04. Content Negotiation
-05. Lazy Loading
-06. Bundle Splitting
-07. Critical CSS
-08. Essential State
-09. The Reducer Pattern
-10. Windowing (List Visualization)
-11. Server-Side Rendering (SSR)
-12. Rehydration
-13. Partial Pre-rendering
-14. Server-Side Components
-15. Micro Frontend
-
-
-*****************01. The Critical Rendering Path (CRP)****************
-
+<<<<<<< HEAD
 The Critical Rendering Path is the sequence of steps the browser goes 
 through to convert the HTML, CSS, and JavaScript into pixels on the screen.
 
@@ -189,6 +140,7 @@ console.log(message);
 
 Output:
     “Majh rastay namo”
+=======
 The Critical Rendering Path is the sequence of steps the browser goes through to 
 convert the HTML, CSS, and JavaScript into pixels on the screen.
 
@@ -217,3 +169,4 @@ improve the First Contentful Paint (FCP) and provide a faster, smoother user exp
 
 
 
+>>>>>>> 8e088d4abe6417f49bcfbb95e6ec23a44f1fbc75
